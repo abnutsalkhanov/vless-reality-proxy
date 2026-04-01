@@ -116,7 +116,7 @@ The target site (SNI) should meet the following technical requirements:
 | Feature | Value |
 | :--- | :--- |
 | BBR | Enabled (TCP speed optimization) |
-| NTP Synchronization | UTC, Active |
+| NTP Synchronization | UTC, active |
 | Security Updates | Automatic (Unattended-upgrades) |
 
 ### 9. Backup System
