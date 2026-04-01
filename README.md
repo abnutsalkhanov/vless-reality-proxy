@@ -67,7 +67,7 @@ We have prepared a ready-to-use prompt containing all the necessary context. Jus
 | Xray Port | 443 |
 | Security | XTLS-Reality |
 | Fingerprint (uTLS) | Chrome |
-| SNI / Target | example.com (Placeholder) |
+| SNI / Target | example.com |
 | Sniffing | Enabled (TLS, HTTP; QUIC: Disabled; Route Only: Enabled) |
 
 #### SNI Selection Criteria
