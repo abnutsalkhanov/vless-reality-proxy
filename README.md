@@ -68,7 +68,7 @@ We have prepared a ready-to-use prompt containing all the necessary context. Jus
 | Security | XTLS-Reality |
 | Fingerprint (uTLS) | Chrome |
 | SNI / Target | example.com |
-| Sniffing | Enabled (TLS, HTTP; QUIC: Disabled; Route Only: Enabled) |
+| Sniffing | Enabled (TLS, HTTP, Route Only); QUIC: Disabled |
 
 #### SNI Selection Criteria
 The target site (SNI) should meet the following technical requirements:
