@@ -67,7 +67,7 @@
 | Порт Xray | 443 |
 | Безопасность | XTLS-Reality |
 | Отпечаток (uTLS) | Chrome |
-| SNI / Цель | example.com (Заглушка) |
+| SNI / Цель | example.com |
 | Сниффинг | Включен (TLS, HTTP; QUIC: Отключен; Route Only: Включен) |
 
 #### Критерии выбора SNI
