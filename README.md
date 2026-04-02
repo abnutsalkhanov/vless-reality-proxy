@@ -53,7 +53,7 @@ We have prepared a ready-to-use prompt containing all the necessary context. Jus
 | Feature | Value |
 | :--- | :--- |
 | Port 443 | ALLOW: Xray/VLESS |
-| Port 2053 | ALLOW: Client subscriptions (Cloudflare IPs only) |
+| Port 2053 | ALLOW: Client subscriptions (Cloudflare IPs only, auto-updated via weekly cron script) |
 | SSH Port | ALLOW: System administration |
 | Panel Port | CLOSED: No public web access |
 | BitTorrent | BLOCKED: Restricted at panel level |
@@ -68,7 +68,7 @@ We have prepared a ready-to-use prompt containing all the necessary context. Jus
 | Xray Port | 443 |
 | Security | XTLS-Reality |
 | Fingerprint (uTLS) | Chrome |
-| SNI / Target | example.com |
+| SNI / Target | example.com (placeholder) |
 | Sniffing | Enabled (TLS, HTTP, Route Only); QUIC: Disabled |
 
 #### SNI Selection Criteria
@@ -85,7 +85,7 @@ The target site (SNI) should meet the following technical requirements:
 
 | Feature | Value |
 | :--- | :--- |
-| Domain | example.com (Cloudflare integrated) |
+| Domain | example.com (placeholder) |
 | Cloudflare Mode | Proxy (Orange Cloud) — Server IP hidden |
 | SSL/TLS Mode | Full (Strict) |
 | Cloudflare Rule | Forwarding to port 2053 |
@@ -123,7 +123,7 @@ The target site (SNI) should meet the following technical requirements:
 ### 9. Backup System
 | Feature | Value |
 | :--- | :--- |
-| Status | Daily automatic backup |
+| Status | Daily automatic backup (via cron script) |
 | Panel Database | x-ui.db |
 | Xray Configuration | config.json |
 | SSL Certificates | Origin Certificate & Private Key |
