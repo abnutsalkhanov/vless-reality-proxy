@@ -85,7 +85,7 @@ The target site (SNI) should meet the following technical requirements:
 
 | Feature | Value |
 | :--- | :--- |
-| Domain | example.com (placeholder) |
+| Domain | example.com (placeholder) — managed by Cloudflare |
 | Cloudflare Mode | Proxy (Orange Cloud) — Server IP hidden |
 | SSL/TLS Mode | Full (Strict) |
 | Cloudflare Rule | Forwarding to port 2053 |
