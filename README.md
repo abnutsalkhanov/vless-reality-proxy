@@ -17,6 +17,7 @@ This documentation is provided for educational purposes and hands-on practice in
 
 To successfully deploy this infrastructure, you will need the following:
 * VPS Server: A Virtual Private Server from any provider (e.g., Fornex, Hetzner, DigitalOcean) running Ubuntu 24.04 LTS.
+* SSH Client: An application (e.g., Termius, PuTTY) to remotely connect to your server.
 * Domain Name: A registered domain name (e.g., .com, .org, .net) to manage your subscription links.
 * Cloudflare Account: A free Cloudflare account to hide your server's real IP and manage DNS records.
 * Client Software: v2rayTun (or any Xray-core application) for connection and settings management.
